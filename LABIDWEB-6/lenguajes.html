@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="registros.html">Registrarse</a>
+                </li>
+                <li>
+                    <a href="cursos.html">Registro de cursos</a>
+                </li>
+                <li>
+                    <a href="validacion.html">Registro de validacion</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form action="lenguajes-registro">
+        <h2>Formulario de preferencias</h2>
+        <fieldset>
+            <legend>Informacion de usuario :</legend>
+        <br>
+        <label for="foto">Foto de perfil :</label>
+        <input type="file" id="foto" name="foto" required>
+        <br><br>
+        <label for="text">¿Que lenguajes conoces?.</label>
+        <br><br>
+        <input type="checkbox" id="css" name="lenguajes[]" value="css">
+        <label for="css">CSS</label>
+        <br> 
+        <input type="checkbox" id="html" name="lenguajes[]" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="javascript" name="lenguajes[]" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <br>      
+        <input type="checkbox" id="python" name="lenguajes[]" value="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="checkbox" id="java" name="lenguajes[]" value="java">
+        <label for="java">Java</label>
+        <br><br>
+        <label for="numero">¿Cuantas horas de programacion estudias al dia ?</label>
+        <br><br>
+        <input type="number" name="numero" id="numero">
+        <br><br>
+        <button type="submit">Guardar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

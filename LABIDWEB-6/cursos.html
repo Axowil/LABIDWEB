@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="lenguajes.html">Registro de preferencias</a>
+                <a href="registros.html">Registrarse</a>
+                <a href="validacion.html">Validar form</a>
+            </li>
+        </nav>
+        
+    </header>
+    <form action="">
+        <fieldset>
+            <h2></h2>
+            <label for="nombre" >Nombre :</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Introducir su Nombre">
+            <br><br>
+            <label  for="apellido" >Apellidos :</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Introducir su Apellido :">
+            <br><br>
+            <label for="dni" >Dni :</label>
+            <input type="text" id="dni" name="dni" placeholder="Introducir su DNI">
+            <br><br>
+            <label for="correo" >Correo :</label>
+            <input type="email" id="correo" name="correo" placeholder="Introducir su correo">
+            <br><br>
+            <label >Seleccion de curso.</label>
+            <br><br>
+            <input type="checkbox" id="matematicas" name="curso" value="matematicas">
+            <label for="matematicas">Matematicas</label>
+            <br> 
+            <input type="checkbox" id="fisica" name="curso" value="fisica">
+            <label for="fisica">Fisica</label>
+            <br>
+            <input type="checkbox" id="desarrollo.web" name="curso" value="desarrollo-web">
+            <label for="desarrollo-web">Desarollo web</label>
+            <br><br>
+            <label for="text">Modalidad :</label>
+            <br><br>
+            <input type="radio" id="presencial" name="modal" value="presencial">
+            <label for="presencial">Presencial</label>
+            <input type="radio" id="virtual" name="modal" value="virtual">
+            <label for="virtual">Virtual</label>
+            <br><br>
+            <label for="horario">Horarios dispnibles</label>
+            <br><br>
+            <input type="checkbox" id="mañana" name="horario" value="horario-temprano">
+            <label for="mañana">Horario Temprano</label>
+            <input type="checkbox" name="horario" id="tarde" value="horario-tarde">
+            <label for="tarde">Horario Tarde</label>
+            <input type="checkbox" name="horario" id="noche" value="horario-noche">
+            <label for="noche">Horario Noche</label>
+            <br>
+                <small>Procura de solo eligir un horario </small>
+            <br><br>
+            <button type="submit">Enviar</button>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
