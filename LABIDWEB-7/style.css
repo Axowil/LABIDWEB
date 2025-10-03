@@ -1,0 +1,44 @@
+h1 {
+    color: green;
+}
+p {
+    font-style: italic;
+}
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+.caja1 {
+
+    background-color: yellow;
+    border : 2px solid blue;
+    padding: 10px;
+    margin: 15px;
+}
+#personalizar{
+    color: blue;
+    font-weight: bold;
+    border: 3px solid red;
+}
+#button{
+    background-color: green;
+    border-radius:10px;
+    padding: 5px;
+}
+.text{
+    color:white;
+    
+}
+.caja{
+    border: 2px solid black;
+    background-color: gray;
+    padding: 10px;
+
+}
+.redondeado {
+    border-radius: 15px;
+}
+.sombreado {
+    box-shadow: 10px 10px 5px rgba(#8a9597);
+}
