@@ -1,0 +1,9 @@
+div > p {
+    color:mediumaquamarine;
+}
+h2 + p {
+    color: wheat;
+}
+h2 ~ p  {
+    color: white;
+}
