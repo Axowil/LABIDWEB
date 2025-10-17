@@ -1,0 +1,16 @@
+.container-boxmodel {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: red;
+    
+}
+
+.caja-boxmodel {
+    
+    text-align: center;
+    padding: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
