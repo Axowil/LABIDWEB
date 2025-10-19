@@ -1,3 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: #333;
+}
 h1{
     text-align: center;
 }
@@ -32,5 +37,13 @@ p::first-letter{
 .servicios::after{
     content: "<----";
     color: green;
+}
+
+.nav a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.nav{
+    list-style-type:none ;
 }
 

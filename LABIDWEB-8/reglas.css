@@ -1,9 +1,15 @@
-div > p {
-    color:mediumaquamarine;
+
+.contenedor{
+    padding: 15px;
+    color: gray;
+}
+
+div p {
+    color: blue;
 }
 h2 + p {
-    color: wheat;
+    color: red;
 }
-h2 ~ p  {
-    color: white;
+h2~ p {
+    color: green;
 }
