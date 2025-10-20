@@ -1,0 +1,18 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 10px;  
+    background-color: aliceblue;
+    padding: 10px;
+}
+.grid-item{ 
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+    image-rendering: auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
