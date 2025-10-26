@@ -89,3 +89,59 @@ h2{
     justify-content: center;
     justify-items: center;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+
+}
+h2{
+    padding-left: 30px;
+}
+/* Estilos para el formulario de contacto */
+.form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centra el formulario en la página */
+    padding: 30px;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-family: Arial, sans-serif; /* Tipo de letra limpio */
+}
+
+.form h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form label {
+    display: block; /* Hace que la etiqueta ocupe su propia línea */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+.form textarea {
+    resize: vertical; 
+    min-height: 120px;
+}
