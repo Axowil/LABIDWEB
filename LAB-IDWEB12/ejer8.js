@@ -3,4 +3,4 @@ const convertirAMayusculas = function (cadena) {
 } 
 
 console.log(convertirAMayusculas("hola mundo")); // "HOLA MUNDO"
-console.log(convertirAMayusculas("JavaScript es genial")); // "JAVASCRIPT ES GENIAL"
+console.log(convertirAMayusculas("JavaScript es el mejor")); // "JAVASCRIPT ES EL MEJOR"

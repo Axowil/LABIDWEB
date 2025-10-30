@@ -5,5 +5,5 @@ function esMultiploDe(num1, num2) {
     return false;
 }
 
-console.log(esMultiploDe(10, 2));
-console.log(esMultiploDe(10, 3));
+console.log(esMultiploDe(40, 2));
+console.log(esMultiploDe(90, 3));

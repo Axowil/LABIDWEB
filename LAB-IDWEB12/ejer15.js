@@ -1,4 +1,3 @@
-//15. Crea una función crearContador() que guarde un valor inicial y devuelva funciones para incrementar() y resetear()
 
 function crearContador(valorInicial) {
     let contador = valorInicial;

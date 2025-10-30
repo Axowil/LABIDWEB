@@ -10,5 +10,4 @@ const procesarTexto = function (frase) {
     return `La frase tiene ${numeroPalabras} palabras.`;
 }
 
-console.log(procesarTexto("Crea una función procesarTexto que tenga"+
-    "una función interna limpiarEspacios y otra contarPalabras"));
+console.log(procesarTexto("La vida es muy corta para andar dudando"));
