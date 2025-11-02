@@ -9,8 +9,8 @@ function crearSecuenciaAritmetica(inicio, paso) {
 }
 
 const secuencia = crearSecuenciaAritmetica(2, 5);
-console.log(secuencia()); // 5
-console.log(secuencia()); // 8
-console.log(secuencia()); // 11
-console.log(secuencia()); // 14
+console.log(secuencia()); // 2
+console.log(secuencia()); // 7
+console.log(secuencia()); // 12
+console.log(secuencia()); // 17
 

@@ -14,6 +14,6 @@ function acumulador(valorInicial) {
     }
 }
 
-const acumulador = acumulador(12);
-console.log(acumulador.agregar(5)); 
-console.log(acumulador.restar(3));
+const miacumulador = acumulador(10);
+console.log(miacumulador.agregar(5)); 
+console.log(miacumulador.restar(3));
