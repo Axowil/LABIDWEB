@@ -51,7 +51,7 @@ class CuentaAhorro extends Cuenta {
         super(saldo);
     }
 
- 
+
     retirar(monto) {
         if (typeof monto !== 'number' || monto <= 0) {
             console.log('Retiro rechazado: monto inválido');
@@ -85,7 +85,7 @@ class CuentaCorriente extends Cuenta {
             console.log('Retiro rechazado: excede límite de sobregiro');
             return false;
         }
- 
+
         return super.retirarSinValidar(monto);
     }
 
