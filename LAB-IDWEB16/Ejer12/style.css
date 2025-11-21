@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.oscuro {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background: #4a9eff;
+    margin-top: 10px;
+    transition: transform 0.5s;
+}
+
+.cuadrado.mover {
+    transform: translateX(300px);
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+    cursor: pointer;
+}
