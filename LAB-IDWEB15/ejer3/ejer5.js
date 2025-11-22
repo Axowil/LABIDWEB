@@ -4,6 +4,6 @@ btejercicio5.addEventListener("click", () => {
     const div5 = document.getElementById("ejercicio5");
     const primerImagen = div5.firstElementChild;
 
-    primerImagen.setAttribute("src", "https://media.istockphoto.com/id/1443562748/es/foto/lindo-gato-de-jengibre.jpg?s=612x612&w=0&k=20&c=JVC5Z3LxpaTQaXu_fMZjIb73r39z6b0SnAxvNI8iZG0=");
-    primerImagen.setAttribute("alt", "imagenGato");
+    primerImagen.setAttribute("src", "https://static.gosugamers.net/e7/b2/da/813fbd3e82dca62ea7948e0dd07842f73c883955535d1ec7ac731c6f7c.webp?w=1600");
+    primerImagen.setAttribute("alt", "imagenDk");
 });

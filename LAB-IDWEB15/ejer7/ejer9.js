@@ -1,6 +1,6 @@
 //Ejercicio 9
 
-const btejercicio9 = document.getElementById("bej9");
+const btejercicio9 = document.getElementById("ejer9");
 
 btejercicio9.addEventListener("click", () => {
     const div = document.getElementById("ejercicio9");

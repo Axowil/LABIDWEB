@@ -1,5 +1,5 @@
 //Ejercicio 13
-const btejercicio13 = document.getElementById("bej13");
+const btejercicio13 = document.getElementById("ejer13");
 
 btejercicio13.addEventListener("click", () => {
     const div = document.getElementById("ejercicio13");

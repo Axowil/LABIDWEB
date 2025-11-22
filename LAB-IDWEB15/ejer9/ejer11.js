@@ -1,4 +1,4 @@
-const btejercicio11 = document.getElementById("bej11");
+const btejercicio11 = document.getElementById("ejer11");
 btejercicio11.addEventListener("click", () => {
     const div = document.getElementById("ejercicio11");
 
