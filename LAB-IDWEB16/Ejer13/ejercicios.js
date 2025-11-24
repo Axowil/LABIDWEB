@@ -30,3 +30,37 @@ formulario13.addEventListener("submit", (e) => {
     renderizarUsuarios();
     formulario13.reset();
 });
+
+function renderizarUsuarios() {
+    tbody.innerHTML = "";
+    
+    usuarios.forEach((usuario, index) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${usuario.nombre}</td>
+            <td>${usuario.edad}</td>
+            <td>
+                <button class="btnEditar" data-index="${index}">Editar</button>
+                <button class="btnEliminar" data-index="${index}">Eliminar</button>
+            </td>
+        `;
+        tbody.appendChild(tr);
+    });
+}
+
+tbody.addEventListener("click", (e) => {
+    const index = e.target.dataset.index;
+    
+    if (e.target.classList.contains("btnEliminar")) {
+        usuarios.splice(index, 1);
+        renderizarUsuarios();
+    }
+    
+    if (e.target.classList.contains("btnEditar")) {
+        editandoIndex = index;
+        inputNombre.value = usuarios[index].nombre;
+        inputEdad.value = usuarios[index].edad;
+        btnAgregar13.textContent = "Actualizar Usuario";
+        inputNombre.focus();
+    }
+});
