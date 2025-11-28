@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#formulario {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding: 20px;
+}
+.respuestas {
+    width: 250px;
+    margin: 0 20px;
+}
+label {
+    align-self: center;
+}
+input {
+    margin: 2px;
+}
+button {
+    width: 100px;
+    margin: 10px;
+}
