@@ -1,0 +1,32 @@
+{
+  "barcelona": {
+    "nombre": "FC Barcelona",
+    "pais": "España",
+    "nivelAtaque": 95,
+    "nivelDefensa": 85
+  },
+  "real_madrid": {
+    "nombre": "Real Madrid",
+    "pais": "España",
+    "nivelAtaque": 93,
+    "nivelDefensa": 88
+  },
+  "bayern": {
+    "nombre": "Bayern Múnich",
+    "pais": "Alemania",
+    "nivelAtaque": 91,
+    "nivelDefensa": 90
+  },
+  "psg": {
+    "nombre": "PSG",
+    "pais": "Francia",
+    "nivelAtaque": 92,
+    "nivelDefensa": 82
+  },
+  "manchester_city": {
+    "nombre": "Manchester City",
+    "pais": "Inglaterra",
+    "nivelAtaque": 94,
+    "nivelDefensa": 89
+  }
+}
