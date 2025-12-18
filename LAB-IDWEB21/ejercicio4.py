@@ -91,7 +91,6 @@ class Biblioteca:
         
         for i, libro in enumerate(self.libros, 1):
             print(f"\n{i}. {libro.mostrar_info()}")
-        print("=" * 60)
     
     def buscar_por_titulo(self, titulo):
         libros_encontrados = [libro for libro in self.libros 

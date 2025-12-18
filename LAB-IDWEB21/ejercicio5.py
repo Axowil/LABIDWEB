@@ -1,16 +1,11 @@
-# Clase personalizada para errores de operación
+
 class OperacionInvalidaException(Exception):
     pass
 
 def realizar_operacion(operacion_str):
     try:
-        # mostrar la operación recibida
         print(f'Operación recibida: "{operacion_str}"')
-        
-        # separar los componentes del string
         componentes = operacion_str.strip().split(' ')
-        
-        # validar que tengamos exactamente 3 componentes
         if len(componentes) != 3:
             raise OperacionInvalidaException(
                 "No valido  'numero1 operador numero2'"
@@ -18,7 +13,6 @@ def realizar_operacion(operacion_str):
         
         num1_str, operador, num2_str = componentes
         
-        # convertir strings a float
         try:
             numero1 = float(num1_str)
             numero2 = float(num2_str)
@@ -27,14 +21,12 @@ def realizar_operacion(operacion_str):
                 f"Datos incorrectos: '{num1_str}' y '{num2_str}' deben ser números"
             )
         
-        # validar que el operador sea válido
         operadores_validos = ['+', '-', '*', '/']
         if operador not in operadores_validos:
             raise OperacionInvalidaException(
                 f"Datos Incorrectos '{operador}'. Use: {', '.join(operadores_validos)}"
             )
         
-        # realizar la operacion y manejar excepciones
         if operador == '+':
             resultado = numero1 + numero2
         elif operador == '-':
@@ -42,7 +34,6 @@ def realizar_operacion(operacion_str):
         elif operador == '*':
             resultado = numero1 * numero2
         elif operador == '/':
-            # manejo especial para división por cero
             if numero2 == 0:
                 raise OperacionInvalidaException("Division por cero no permitida")
             resultado = numero1 / numero2
@@ -67,9 +58,8 @@ if __name__ == "__main__":
     operaciones_validas = ["10 / 2", "15 + 7", "20 - 8", "6 * 4"]
     for op in operaciones_validas:
         try:
-            realizar_operacion(op)
-        except Exception:
-            pass
+            realizar_operacion(op)  
+        except Exception: e ;
         print()
     
     while True:
